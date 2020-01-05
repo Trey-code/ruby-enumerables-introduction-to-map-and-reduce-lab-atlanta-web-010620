@@ -19,7 +19,7 @@ end
   final_array
 end 
 
-def map_to_no_double(array)
+def map_to_double(array)
   final_array = []
   counter = 0 
   while counter < array.size do
