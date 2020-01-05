@@ -1,4 +1,4 @@
-# My Code here....
+
 def map_to_negativize(array)
   final_array = []
   counter = 0 
@@ -10,7 +10,7 @@ def map_to_negativize(array)
 end 
     
     def map_to_no_change(array)
-  final_array = []
+  final_array = ["paul", "gurney", "vladimir", "jessica"]
   counter = 0 
   while counter < array.size do
     final_array.push()
@@ -61,7 +61,7 @@ end
 def reduce_to_any_true(array)
   counter = 0 
   while counter < array.size do 
-    return true if CONDITION (I have found a truthy value)
+    return true if CONDITION 
     counter += 1 
   end
   return false
