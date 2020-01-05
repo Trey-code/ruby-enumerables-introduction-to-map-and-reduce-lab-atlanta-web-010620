@@ -49,3 +49,11 @@ def reduce_to_total(array, starting_point=0)
   total
 end 
 
+def reduce_to_all_true(array)
+  counter = 0 
+  while counter < array.size do 
+    return false if CONDITION
+    counter += 1 
+  end
+  return true
+end 
